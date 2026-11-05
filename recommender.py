@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from dotenv import load_dotenv
 
 load_dotenv()
-TMDB_KEY = os.getenv("TMDB_API_KEY", "fbd0e11c29a8b8519184a3242457c77a")
+TMDB_KEY = os.getenv("TMDB_API_KEY")
 TMDB_BASE = "https://api.themoviedb.org/3"
 POSTER_BASE = "https://image.tmdb.org/t/p/w500"
 
